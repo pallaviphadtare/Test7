@@ -1,0 +1,17 @@
+
+
+
+<suite name="Suite">
+  <test  name="Test">
+  	<groups>
+	  <run>
+        <include name="Login"/>
+        <include name="Admin"/>
+        <exclude name="Date"/>
+ 	 </run>
+  	</groups>
+    <classes>
+      <class name="TestNG.Grouping_Of_TCE"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

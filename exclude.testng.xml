@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="TestNG.disable"/>
+				<methods>
+					<exclude name="TC2"/>
+					<exclude name="TC1"/>
+				</methods>
+		</classes>
+	</test>
+</suite>
